@@ -3,10 +3,26 @@ import { Link } from 'react-router-dom';
 import styles from './SlideMain.module.css';
 
 const SlideMain = ({ slideMain }) => {
+  const [active, setActive] = React.useState(0);
+  const [position, setPosition] = React.useState(0);
+  const contentRef = React.useRef();
+
+  function slidePrev() {
+
+  }
+
+  function slideNext() {
+    const {width} = contentRef.current.getBoundingClientRect();
+    setPosition(position - width);
+  }
 
   return (
-    <section className={`container`}>
-      <div className={styles.content}>
+    <section className={`${styles.containerS}`}>
+      <div 
+        ref={contentRef}
+        className={styles.content} 
+        style={{ transform: `translateX(${position}px)` }}
+      >
         {slideMain.map((produto) => 
           (<div className={styles.item}>
             <Link 
@@ -17,8 +33,8 @@ const SlideMain = ({ slideMain }) => {
         ))}
       </div>
       <nav className={`${styles.nav}`}>
-        <button>‹</button>
-        <button>›</button>
+        <button onClick={slidePrev}>‹</button>
+        <button onClick={slideNext}>›</button>
       </nav>
     </section>
   )

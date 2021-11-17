@@ -1,15 +1,22 @@
-.content {
-  display: flex;
+.containerS {
+  max-width: 82.5rem;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.content {
+  display: flex;
+  transition: transform .3s ease;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .item {
   flex-shrink: 0;
   width: 100%;
   /*background: #ccc;*/
-  margin: 0 ;
-  background: violet;
+  margin: 0 auto;
 }
 
 .nav {
