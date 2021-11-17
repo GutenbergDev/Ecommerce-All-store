@@ -7,13 +7,24 @@ const SlideMain = ({ slideMain }) => {
   const [position, setPosition] = React.useState(0);
   const contentRef = React.useRef();
 
-  function slidePrev() {
+  /*React.useEffect(() => {
+    const { width } = contentRef.current.getBoundingClientRect();
+    setPosition(-(width * active))
+  }, [active])*/
 
+  React.useEffect(() => {
+    const { width } = contentRef.current.getBoundingClientRect();
+    setPosition(-(width * active))
+  }, [active])
+
+  function slidePrev() {
+    if(active > 0) setActive(active - 1);
   }
 
   function slideNext() {
-    const {width} = contentRef.current.getBoundingClientRect();
-    setPosition(position - width);
+    if(active < slideMain.length - 1) {
+      setActive(active + 1)
+    } 
   }
 
   return (
@@ -25,10 +36,13 @@ const SlideMain = ({ slideMain }) => {
       >
         {slideMain.map((produto) => 
           (<div className={styles.item}>
-            <Link 
-              to={`produto/${produto.id}`} 
-              key={produto.id}>{produto.name}
-            </Link>
+            <div>
+              <Link 
+                to={`produto/${produto.id}`} 
+                key={produto.id}>
+                  <p>{produto.name}</p>
+              </Link>
+            </div>
           </div>
         ))}
       </div>

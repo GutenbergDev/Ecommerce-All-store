@@ -1,23 +1,26 @@
+
 .containerS {
-  max-width: 82.5rem;
-  margin: 0 auto;
   overflow: hidden;
+  background-color: black;
+  max-width: 82.5rem;
+  margin: auto;
 }
 
 .content {
   display: flex;
-  transition: transform .3s ease;
-  max-width: 100%;
+  transition: transform 0.3s ease;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 .item {
   flex-shrink: 0;
   width: 100%;
-  /*background: #ccc;*/
   margin: 0 auto;
+  background-color: #ccc;
+  text-align: center;
 }
+
 
 .nav {
   display: flex;
@@ -32,4 +35,5 @@
   border: none;
   background: var(--nextPrev-color);
   color: var(--main-color);
+  z-index: 100;
 }
