@@ -37,7 +37,14 @@ const SlideMain = ({ slideMain }) => {
               <Link 
                 to={`produto/${produto.id}`} 
                 key={produto.id}>
-                  <p>{produto.name}</p>
+                  <div>
+                    <h1>{produto.name}</h1>
+                    <h2>{produto.subName}</h2>
+                    <p>{produto.description}</p>
+                  </div>
+                  <div>
+                    <h1>Aqui a foto</h1>
+                  </div>
               </Link>
             </div>
           </div>
