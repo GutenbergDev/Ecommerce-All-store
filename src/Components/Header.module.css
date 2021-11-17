@@ -156,6 +156,13 @@
   align-items: center;
 }
 
+.mobileLogo {
+  display: flex;
+  color: #F1F3F4;
+  background: #F50053;
+  max-width: 100px;
+}
+
 @media (min-width: 320px) and (max-width: 600px) {
   .toggle {
     display: flex;

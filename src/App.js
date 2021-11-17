@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer';
 import Contato from './Components/Contato';
 import Marcas from './Components/Marcas';
 import CriarConta from './Components/Login/CriarConta';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
 
 const App = () => {
   return (

@@ -77,7 +77,7 @@
   {
     "userId": "6",
     "id": "6",
-    "name": "Nike SB Black",
+    "name": "Nike Air",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Tênis Nike SB Chron Slr Preto",
@@ -92,7 +92,7 @@
   {
     "userId": "7",
     "id": "7",
-    "name": "Nike SB Red",
+    "name": "Nike Air 1",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Tênis Nike SB Chron Slr Preto",
@@ -107,7 +107,7 @@
   {
     "userId": "8",
     "id": "8",
-    "name": "Nike SB Blue",
+    "name": "Nike Air 2",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Tênis Nike SB Chron Slr Preto",
@@ -122,7 +122,7 @@
   {
     "userId": "9",
     "id": "9",
-    "name": "Nike SB Green",
+    "name": "Nike Air 3",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Tênis Nike SB Chron Slr Preto",
@@ -137,7 +137,7 @@
   {
     "userId": "10",
     "id": "10",
-    "name": "Nike SB Green",
+    "name": "Nike Air 4",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Tênis Nike SB Chron Slr Preto",

@@ -20,7 +20,7 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={`${styles.nav1} container`}> 
         <div className={`${mobile ? styles.containerMenuMobile : styles.logo}`} to="/" arial-label="Logo - Home">
-          <Logo />
+          <Logo className={`${mobile ? styles.mobileLogo : styles.logo}`} />
           {mobile &&
             <button 
               aria-label="Menu" 
