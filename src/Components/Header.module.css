@@ -13,7 +13,7 @@
   top: 0;
 }
 
-.nav {
+.nav1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,18 +31,19 @@
   height: 100%;
 }
 
-.nav .logo ul {
+.nav1 .logo ul {
   list-style: none;
+  
 }
 
-.nav ul {
+.nav1 ul {
   display: flex;
   padding: 0px;
   margin: 0px;
   list-style: none;
 }
 
-.nav ul li {
+.nav1 ul li {
   margin-right: 1rem;
 }
 
@@ -68,7 +69,7 @@
   border-radius: 4px;
 }
 
-.nav :global(.active),
+.nav1 :global(.active),
 .link:hover {
   background: #ddd;
   color: #333;
@@ -120,13 +121,39 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .navMobile {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: absolute;
   top: 70px;
   right: 0;
   padding: 0 1rem;
+  background: white;
+  transform: translateX(-10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navMobile .linkC {
+  margin-right: 1rem;
+}
+
+.navMobileActive {
+  transition: .3s;
+  transform: initial;
+  opacity: 1;
+  z-index: 100;
+  pointer-events: initial;
+}
+
+.navMobile a,
+.navMobile button {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 320px) and (max-width: 600px) {

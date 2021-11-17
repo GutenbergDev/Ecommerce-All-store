@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+}
+
+.footer {
+  max-width: 82.5rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  background: var(--footer-color);
+  color: #fff;
+}

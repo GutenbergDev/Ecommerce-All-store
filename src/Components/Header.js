@@ -15,7 +15,7 @@ console.log(mobile)
     <header className={styles.header}>
       
       
-      <nav className={`${mobile ? styles.navMobile : styles.nav} ${mobileMenu && styles.navMobileActive} container`}> 
+      <nav className={`${styles.nav1} container`}> 
 
       
         <Link className={`${mobile ? styles.containerMenuMobile : styles.logo}`} to="/" arial-label="Logo - Home" end>
@@ -29,13 +29,11 @@ console.log(mobile)
           }
         </Link> 
 
-        <ul>
+        <ul className={`${mobile ? styles.navMobile : styles.nav1} ${mobileMenu && styles.navMobileActive}`}>
           <NavLink className={styles.link} to="/" end>Home</NavLink>
           <NavLink className={styles.link} to="marcas">Marcas</NavLink>
           <NavLink className={styles.link} to="contato">Contato</NavLink> 
           <NavLink className={`${styles.linkC}`} to="criarConta">Criar Conta</NavLink>
-
-          
         </ul>
       </nav>
       <div className={styles.toggle}>
