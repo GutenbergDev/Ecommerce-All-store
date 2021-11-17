@@ -13,19 +13,16 @@ const SlideMain = ({ slideMain }) => {
   }, [active])*/
 
   React.useEffect(() => {
-    const { width } = contentRef.current.getBoundingClientRect();
-    setPosition(-(width * active))
+    setTimeout(() => {
+      const { width } = contentRef.current.getBoundingClientRect();
+      setPosition(-(width * active))
+      if(active < slideMain.length - 1) {
+        setActive(active + 1)
+      } else if(active === 2) {
+        setActive(0)
+      }
+    }, 5000)
   }, [active])
-
-  function slidePrev() {
-    if(active > 0) setActive(active - 1);
-  }
-
-  function slideNext() {
-    if(active < slideMain.length - 1) {
-      setActive(active + 1)
-    } 
-  }
 
   return (
     <section className={`${styles.containerS}`}>
@@ -47,8 +44,7 @@ const SlideMain = ({ slideMain }) => {
         ))}
       </div>
       <nav className={`${styles.nav}`}>
-        <button onClick={slidePrev}>‹</button>
-        <button onClick={slideNext}>›</button>
+
       </nav>
     </section>
   )
