@@ -15,9 +15,12 @@ const Home = () => {
   console.log(produtos)
 
   return (
-    <div className={styles.slideMain}>
-      <SlideMain slideMain={produtos} />
-    </div>
+    <>
+      <div className={styles.slideMain}>
+        <SlideMain slideMain={produtos} />
+      </div>
+      
+    </>
   )
 }
 

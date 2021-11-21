@@ -17,9 +17,8 @@
   flex-shrink: 0;
   width: 100%;
   margin: 0 auto;
-  background-color: #ccc;
-  text-align: center;
-  padding: 0 1rem;
+  background-color: var(--main-color);
+  padding: 2rem 1rem;
 }
 
 
@@ -37,4 +36,38 @@
   background: var(--nextPrev-color);
   color: var(--main-color);
   z-index: 100;
+}
+
+.linkSlideContainer {
+  display: flex;
+}
+
+.linkSlideItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.linkSlideItem .h1 {
+  font-size: 3rem;
+  color: var(--nextPrev-color);
+}
+
+.linkSlideItem .h2 {
+  font-size: 2rem;
+  color: var(--black1-color);
+  margin-bottom: 1rem;
+}
+
+.linkSlideItem .p {
+  width: 90%;
+  font-size: 1.2rem;
+  color: var(--black1-color);
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.linkSlideItemTwo {
+  width: 50%;
 }

@@ -13,8 +13,9 @@ const SlideMain = ({ slideMain }) => {
   }, [active])*/
 
   React.useEffect(() => {
+    const { width } = contentRef.current.getBoundingClientRect();
+
     setTimeout(() => {
-      const { width } = contentRef.current.getBoundingClientRect();
       setPosition(-(width * active))
       if(active < slideMain.length - 1) {
         setActive(active + 1)
@@ -23,6 +24,7 @@ const SlideMain = ({ slideMain }) => {
       }
     }, 5000)
   }, [active])
+  
 
   return (
     <section className={`${styles.containerS}`}>
@@ -32,18 +34,26 @@ const SlideMain = ({ slideMain }) => {
         style={{ transform: `translateX(${position}px)` }}
       >
         {slideMain.map((produto) => 
-          (<div className={styles.item}>
+          (<div 
+            className={styles.item} 
+            key={produto.id}
+            >
             <div>
               <Link 
                 to={`produto/${produto.id}`} 
-                key={produto.id}>
-                  <div>
-                    <h1>{produto.name}</h1>
-                    <h2>{produto.subName}</h2>
-                    <p>{produto.description}</p>
+                className={styles.linkSlideContainer}
+                >
+                  <div className={styles.linkSlideItem}>
+                    <div>
+                      <h1 className={styles.h1}>{produto.name}</h1>
+                      <h2 className={styles.h2}>{produto.subName}</h2>
+                    </div>  
+                    <div>
+                      <p className={styles.p}>{produto.description}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h1>Aqui a foto</h1>
+                  <div className={styles.linkSlideItemTwo}>
+                    <img src={produto.image[0]} alt="" />
                   </div>
               </Link>
             </div>
