@@ -76,7 +76,6 @@
   
   .linkSlideItem .h1 {
     font-size: 2.5rem;
-    color: var(--nextPrev-color);
   }
   
   .linkSlideItem .h2 {
@@ -89,5 +88,38 @@
     width: 80%;
     font-size: 1rem;
     line-height: 1.3rem;
+  }
+} 
+
+@media (min-width: 425px) and (max-width: 720px) {
+
+  .linkSlideContainer {
+    flex-direction: column-reverse;
+  }
+
+  .linkSlideItem {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .linkSlideItemTwo {
+    width: 100%;
+  }
+
+  .linkSlideItem .h1 {
+    font-size: 2rem;
+  }
+  
+  .linkSlideItem .h2 {
+    font-size: 1.5rem;
+    color: var(--black1-color);
+  }
+  
+  .linkSlideItem .p {
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--black1-color);
+    line-height: 1.5rem;
+    text-align: justify;
   }
 } 
