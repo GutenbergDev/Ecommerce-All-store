@@ -25,13 +25,13 @@ const ProdutoSlide = () => {
       <div className={styles.produto}>
         {produtosSlide.map((produto) => (
           <Link 
-            className={styles.containerItem}
+            className={`${styles.containerItem} animeLeft`}
             to={`produto/${produto.id}`}
           >
             <div>
               <img src={produto.image[0]} />
             </div>
-            <div className={styles.dadosItem}>
+            <div className={`${styles.dadosItem}`}>
               <span className={styles.oldPrice}>R$ {produto.OldPrice}.00</span>
               <span className={styles.price}>R$ {produto.price}</span>
             </div>

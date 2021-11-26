@@ -32,7 +32,7 @@ const SlideMain = ({ slideMain }) => {
         style={{ transform: `translateX(${position}px)` }}
       >
         {newProdutoSlide.map(produto => (
-          <Link  className={styles.item}   key={produto.nameId} to={`produtoNew/${produto.nameId}`}>
+          <Link  className={styles.item}   key={produto.nameId} to={`produtoNew/${produto.model}`}>
 
               <div>
               <div 
