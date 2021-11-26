@@ -1,40 +1,83 @@
 [{
-  "userId": "slideMain",
-  "nameId": "slide-1",
+  "userId": "ProdutoSlide",
+  "nameId": "tenis-1",
+  "status": "new",
   "id": 1,
   "name": "Novo Nike Air Max",
   "OldPrice": 320.00,
   "price": 289.99,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
-  "image": "/static/img/slide-main/tenis-png.png"
-  },
-  {
-  "userId": "slideMain",
-  "nameId": "slide-2",
+  "imageSlide": "/static/img/slide-main/air1/img-slide1.png",
+  "image": [
+    "/static/img/slide-main/air1/nike-air.jpg",
+    "/static/img/slide-main/air1/nike-air2.jpg",
+    "/static/img/slide-main/air1/nike-air3.jpg",
+    "/static/img/slide-main/air1/nike-air4.jpg",
+    "/static/img/slide-main/air1/nike-air5.jpg"
+  ]
+},
+{
+  "userId": "ProdutoSlide",
+  "nameId": "tenis-2",
+  "status": "new",
   "id": 2,
   "name": "Novo Nike Air Max",
   "OldPrice": 320.00,
   "price": 289.99,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
-  "image": "/static/img/slide-main/tenis-png2.png"
-  },
-  {
-    "userId": "slideMain",
-    "nameId": "slide-3",
-    "id": 3,
-    "name": "Novo Nike Air Max",
-    "OldPrice": 320.00,
-    "price": 289.99,
-    "description": "Tênis Nike SB Chron Slr Preto",
-    "sizes": [39, 40],
-    "image": "/static/img/slide-main/tenis-png3.png"
-  },
+  "imageSlide": "/static/img/slide-main/air2/img-slide2.png",
+  "image": [
+    "/static/img/slide-main/air2/nike-air.jpg",
+    "/static/img/slide-main/air2/nike-air2.jpg",
+    "/static/img/slide-main/air2/nike-air3.jpg",
+    "/static/img/slide-main/air2/nike-air4.jpg",
+    "/static/img/slide-main/air2/nike-air5.jpg"
+  ]
+},
+{
+  "userId": "ProdutoSlide",
+  "nameId": "tenis-3",
+  "status": "new",
+  "id": 3,
+  "name": "Novo Nike Air Max",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "imageSlide": "/static/img/slide-main/air3/img-slide3.png",
+  "image": [
+    "/static/img/slide-main/air3/nike-air.jpg",
+    "/static/img/slide-main/air3/nike-air2.jpg",
+    "/static/img/slide-main/air3/nike-air3.jpg",
+    "/static/img/slide-main/air3/nike-air4.jpg",
+    "/static/img/slide-main/air3/nike-air5.jpg"
+  ]
+},
+{
+  "userId": "ProdutoSlide",
+  "nameId": "tenis-4",
+  "status": "old",
+  "id": 4,
+  "name": "Novo Nike Air Max",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/slide-main/air4/nike-air.jpg",
+    "/static/img/slide-main/air4/nike-air2.jpg",
+    "/static/img/slide-main/air4/nike-air3.jpg",
+    "/static/img/slide-main/air4/nike-air4.jpg",
+    "/static/img/slide-main/air4/nike-air5.jpg"
+  ]
+},
   {
   "userId": "Air",
   "nameId": "air-max1",
-  "id": 4,
+  "status": "old",
+  "id": 5,
   "name": "Nike Air1",
   "OldPrice": 320.00,
   "price": 289.99,
@@ -66,6 +109,7 @@
 {
   "userId": "Air",
   "nameId": "air-max3",
+  "status": "old",
   "id": 6,
   "name": "Nike Air3",
   "OldPrice": 320.00,
@@ -82,6 +126,7 @@
 {
   "userId": "Air",
   "nameId": "air-max4",
+  "status": "old",
   "id": 7,
   "name": "Nike Air4",
   "OldPrice": 320.00,
@@ -98,6 +143,7 @@
 {
   "userId": "Air",
   "nameId": "air-max5",
+  "status": "old",
   "id": 8,
   "name": "Nike Air5",
   "OldPrice": 320.00,
@@ -114,6 +160,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-1",
+  "status": "old",
   "id": 9,
   "name": "Nike SB Black",
   "OldPrice": 320.00,
@@ -130,6 +177,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-2",
+  "status": "old",
   "id": 10,
   "name": "Nike SB Red",
   "OldPrice": 320.00,
@@ -146,6 +194,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-3",
+  "status": "old",
   "id": 11,
   "name": "Nike SB Blue",
   "OldPrice": 320.00,
@@ -162,6 +211,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-4",
+  "status": "old",
   "id": 12,
   "name": "Nike SB Green",
   "OldPrice": 320.00,
@@ -178,6 +228,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-5",
+  "status": "old",
   "id": 13,
   "name": "Nike SB Green",
   "OldPrice": 320.00,

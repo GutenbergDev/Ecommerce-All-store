@@ -1,0 +1,77 @@
+[
+  {
+    "userId": "ProdutoSlide",
+    "nameId": "tenis-1",
+    "status": "new",
+    "id": 1,
+    "name": "Novo Nike Air Max",
+    "OldPrice": 320.00,
+    "price": 289.99,
+    "description": "Tênis Nike SB Chron Slr Preto",
+    "sizes": [39, 40],
+    "imageSlide": "/static/img/slide-main/air1/img-slide1.png",
+    "image": [
+      "/static/img/slide-main/air1/nike-air.jpg",
+      "/static/img/slide-main/air1/nike-air2.jpg",
+      "/static/img/slide-main/air1/nike-air3.jpg",
+      "/static/img/slide-main/air1/nike-air4.jpg",
+      "/static/img/slide-main/air1/nike-air5.jpg"
+    ]
+  },
+  {
+    "userId": "ProdutoSlide",
+    "nameId": "tenis-2",
+    "status": "new",
+    "id": 2,
+    "name": "Novo Nike Air Max",
+    "OldPrice": 320.00,
+    "price": 289.99,
+    "description": "Tênis Nike SB Chron Slr Preto",
+    "sizes": [39, 40],
+    "imageSlide": "/static/img/slide-main/air2/img-slide2.png",
+    "image": [
+      "/static/img/slide-main/air2/nike-air.jpg",
+      "/static/img/slide-main/air2/nike-air2.jpg",
+      "/static/img/slide-main/air2/nike-air3.jpg",
+      "/static/img/slide-main/air2/nike-air4.jpg",
+      "/static/img/slide-main/air2/nike-air5.jpg"
+    ]
+  },
+  {
+    "userId": "ProdutoSlide",
+    "nameId": "tenis-3",
+    "status": "new",
+    "id": 3,
+    "name": "Novo Nike Air Max",
+    "OldPrice": 320.00,
+    "price": 289.99,
+    "description": "Tênis Nike SB Chron Slr Preto",
+    "sizes": [39, 40],
+    "imageSlide": "/static/img/slide-main/air3/img-slide3.png",
+    "image": [
+      "/static/img/slide-main/air3/nike-air.jpg",
+      "/static/img/slide-main/air3/nike-air2.jpg",
+      "/static/img/slide-main/air3/nike-air3.jpg",
+      "/static/img/slide-main/air3/nike-air4.jpg",
+      "/static/img/slide-main/air3/nike-air5.jpg"
+    ]
+  },
+  {
+    "userId": "ProdutoSlide",
+    "nameId": "tenis-4",
+    "status": "old",
+    "id": 4,
+    "name": "Novo Nike Air Max",
+    "OldPrice": 320.00,
+    "price": 289.99,
+    "description": "Tênis Nike SB Chron Slr Preto",
+    "sizes": [39, 40],
+    "image": [
+      "/static/img/slide-main/air4/nike-air.jpg",
+      "/static/img/slide-main/air4/nike-air2.jpg",
+      "/static/img/slide-main/air4/nike-air3.jpg",
+      "/static/img/slide-main/air4/nike-air4.jpg",
+      "/static/img/slide-main/air4/nike-air5.jpg"
+    ]
+  }
+]

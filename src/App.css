@@ -4,18 +4,23 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
 :root {
   --main-color: #F5F5F5;
+  --cardItem-color: #e5e5e5;
   --logo-color: #F50053;
   --footer-color: #1E2E41;
   --black1-color: #333;
   --nextPrev-color: #00AF97;
+  --oldPrice-color: #6D6D6D;
 }
 
 body {
   background-color: var(--main-color);
   color: var(--black1-color);
-  --type-first: Arial, Helvetica, sans-serif;
+  --type-first: 'Quicksand', sans-serif;
   font-family: var(--type-first);
 }
 

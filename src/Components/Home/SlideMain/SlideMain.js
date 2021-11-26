@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Head from '../Head';
+import Head from '../../Head';
 import styles from './SlideMain.module.css';
 
 const SlideMain = ({ slideMain }) => {
@@ -8,12 +8,7 @@ const SlideMain = ({ slideMain }) => {
   const [position, setPosition] = React.useState(0);
   const contentRef = React.useRef();
 
-  let newProdutoSlide = slideMain.filter((produto) => produto.userId === 'slideMain')
-
-  /*React.useEffect(() => {
-    const { width } = contentRef.current.getBoundingClientRect();
-    setPosition(-(width * active))
-  }, [active])*/
+  let newProdutoSlide = slideMain.filter((produto) => produto.status === 'new')
 
   React.useEffect(() => {
     const { width } = contentRef.current.getBoundingClientRect();
@@ -27,19 +22,17 @@ const SlideMain = ({ slideMain }) => {
       }
     }, 5000)
   }, [active])
-  
 
   return (
     <section className={`${styles.containerS}`}>
-      <Head title={`Produto`} description={`Descrição do site Ranek`} />
+      <Head title={`New Nike Air`} description={`Descrição do site Ranek`} />
       <div 
         ref={contentRef}
         className={styles.content} 
         style={{ transform: `translateX(${position}px)` }}
       >
         {newProdutoSlide.map(produto => (
-          <Link  className={styles.item}   key={produto.nameId} to={`produto/${produto.nameId}`}
-            >
+          <Link  className={styles.item}   key={produto.nameId} to={`produtoNew/${produto.nameId}`}>
 
               <div>
               <div 
@@ -55,7 +48,7 @@ const SlideMain = ({ slideMain }) => {
                     </div>
                   </div>
                   <div className={styles.linkSlideItemTwo}>
-                    <img src={produto.image} alt="" />
+                    <img src={produto.imageSlide} alt="" />
                   </div>
               </div>
             </div>
