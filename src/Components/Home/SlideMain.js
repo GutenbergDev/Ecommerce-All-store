@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Head from '../Head';
 import styles from './SlideMain.module.css';
 
 const SlideMain = ({ slideMain }) => {
@@ -30,15 +31,14 @@ const SlideMain = ({ slideMain }) => {
 
   return (
     <section className={`${styles.containerS}`}>
+      <Head title={`Produto`} description={`Descrição do site Ranek`} />
       <div 
         ref={contentRef}
         className={styles.content} 
         style={{ transform: `translateX(${position}px)` }}
       >
-        {newProdutoSlide.map(produto => (<Link 
-            className={styles.item} 
-            key={produto.id}
-            to={`produto/${produto.id}`}
+        {newProdutoSlide.map(produto => (
+          <Link  className={styles.item}   key={produto.nameId} to={`produto/${produto.nameId}`}
             >
 
               <div>

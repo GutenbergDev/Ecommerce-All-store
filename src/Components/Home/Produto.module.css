@@ -1,6 +1,19 @@
 .produto {
   max-width: 82.5rem;
-  background: #333;
   margin: 0 auto;
   padding: 2rem 1rem;
+  background: #333;
+  color: #fff;
+}
+
+.produtoContainer {
+  display: flex;
+}
+
+.item1 {
+
+}
+
+.item2 {
+  
 }
