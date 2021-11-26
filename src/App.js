@@ -7,8 +7,8 @@ import Contato from './Components/Contato';
 import Marcas from './Components/Marcas';
 import CriarConta from './Components/Login/CriarConta';
 import Home from './Components/Home/Home';
-import Produto from './Components/Home/Produto/Produto';
 import ProdutoSlide from './Components/Home/SlideMain/ProdutoSlide';
+import ProdutosNew from './Components/Home/SlideMain/ProdutosNew';
 
 const App = () => {
   return (
@@ -22,8 +22,8 @@ const App = () => {
             <Route path="marcas" element={<Marcas />} />
             <Route path="contato" element={<Contato />} />
             <Route path="criarConta" element={<CriarConta />} />
-            <Route path="produtoNew/:model" element={<ProdutoSlide />} />
-            <Route path="produto/:id" element={<Produto />} />
+            <Route path="produtos/:nameId" element={<ProdutoSlide />} />
+            <Route path="produto/:nameId" element={<ProdutosNew />} />
           </Routes>
         </div>  
 

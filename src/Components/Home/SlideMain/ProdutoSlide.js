@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import Head from '../../Head';
 import styles from './ProdutoSlide.module.css';
 
 const ProdutoSlide = () => {
@@ -22,11 +23,16 @@ const ProdutoSlide = () => {
 //if(newProdutos === null) return null;
   return (
     <section className={styles.containerProduto}>
+      <Head 
+        title={`Produto`} 
+        description={`Descrição do site Ranek`} 
+      />
       <div className={styles.produto}>
         {produtosSlide.map((produto) => (
           <Link 
             className={`${styles.containerItem} animeLeft`}
-            to={`produto/${produto.id}`}
+            to={`/produto/${produto.nameId}`}
+            key={produto.id}
           >
             <div>
               <img src={produto.image[0]} />
@@ -45,20 +51,3 @@ const ProdutoSlide = () => {
 }
 
 export default ProdutoSlide;
-
-/*{produtosSlide.map((produtos) => (
-  <div
-    className={styles.produto}
-    key={produtos.id}
-  >
-    <Link 
-      className={styles.containerItem}
-      to={`produto/${produtos.id}`}
-    >
-      <div>
-        <img src={produtos.image[0]} />
-      </div>
-    </Link>
-  </div>
-))
-}*/

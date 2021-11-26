@@ -37,7 +37,6 @@ const Produto = () => {
   
   return (
     <section className={styles.produto}>
-      <Head title={`Produto | ${produto.nome}`} description={`Shoes | Esse é um produto: ${produto.name}`} />
 
       <div className={styles.produtoContainer}>
         <div className={styles.item1}>
