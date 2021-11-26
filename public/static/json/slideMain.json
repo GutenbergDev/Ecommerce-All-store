@@ -1,50 +1,50 @@
 [
   {
-    "userId": "1",
+    "userId": "nike-air-max1",
     "id": 1,
     "name": "Nike Air Max 1",
     "subName": "Um Passo Para o Futuro",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Traga o passado para o futuro com o Nike Air Max 2090 EOI, um look ousado inspirado no DNA do icônico Air Max 90. O novo amortecimento Nike Air debaixo do pé proporciona conforto inigualável, enquanto o tecido de malha transparente e o tecido de cores vibrantes na parte de cima se misturam com as características atemporais para um look moderno e arrojado.",
-    "sizes": [39, 40],
+    "sizes": [38, 39, 40, 41, 42, 43, 44, 45],
     "image": [
-      "./static/img/slide-main/tenis-png.png",
-      "./static/img/nike-sb/sb1/sb-2.jpg", 
-      "./static/img/nike-sb/sb1/sb-3.jpg",
-      "./static/img/nike-sb/sb1/sb-4.jpg" 
+      "/static/img/slide-main/tenis-png.png",
+      "/static/img/nike-sb/sb1/sb-2.jpg", 
+      "/static/img/nike-sb/sb1/sb-3.jpg",
+      "/static/img/nike-sb/sb1/sb-4.jpg" 
     ]
   },
   {
-    "userId": "2",
+    "userId": "nike-air-max2",
     "id": 2,
     "name": "Nike Air Max 2",
     "subName": "Um Passo Para o Futuro",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Traga o passado para o futuro com o Nike Air Max 2090 EOI, um look ousado inspirado no DNA do icônico Air Max 90. O novo amortecimento Nike Air debaixo do pé proporciona conforto inigualável, enquanto o tecido de malha transparente e o tecido de cores vibrantes na parte de cima se misturam com as características atemporais para um look moderno e arrojado.",
-    "sizes": [39, 40],
+    "sizes": [38, 39, 40, 41, 42, 43, 44, 45],
     "image": [
-      "./static/img/slide-main/tenis-png2.png",
-      "./static/img/nike-sb/sb2/sb-2.jpg", 
-      "./static/img/nike-sb/sb2/sb-3.jpg",
-      "./static/img/nike-sb/sb2/sb-4.jpg" 
+      "/static/img/slide-main/tenis-png2.png",
+      "/static/img/nike-sb/sb2/sb-2.jpg", 
+      "/static/img/nike-sb/sb2/sb-3.jpg",
+      "/static/img/nike-sb/sb2/sb-4.jpg" 
     ]
   },
   {
-    "userId": "3",
+    "userId": "nike-air-max3",
     "id": 3,
     "name": "Nike Air Max 3",
     "subName": "Um Passo Para o Futuro",
     "OldPrice": 320.00,
     "price": 289.99,
     "description": "Traga o passado para o futuro com o Nike Air Max 2090 EOI, um look ousado inspirado no DNA do icônico Air Max 90. O novo amortecimento Nike Air debaixo do pé proporciona conforto inigualável, enquanto o tecido de malha transparente e o tecido de cores vibrantes na parte de cima se misturam com as características atemporais para um look moderno e arrojado.",
-    "sizes": [39, 40],
+    "sizes": [38, 39, 40, 41, 42, 43, 44, 45],
     "image": [
-      "./static/img/slide-main/tenis-png3.png",
-      "./static/img/nike-sb/sb3/sb-2.jpg", 
-      "./static/img/nike-sb/sb3/sb-3.jpg",
-      "./static/img/nike-sb/sb3/sb-4.jpg" 
+      "/static/img/slide-main/tenis-png3.png",
+      "/static/img/nike-sb/sb3/sb-2.jpg", 
+      "/static/img/nike-sb/sb3/sb-3.jpg",
+      "/static/img/nike-sb/sb3/sb-4.jpg" 
     ]
   }
 ]

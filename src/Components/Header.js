@@ -20,7 +20,7 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={`${styles.nav1} container`}> 
         <div className={`${mobile ? styles.containerMenuMobile : styles.logo}`} to="/" arial-label="Logo - Home">
-          <Logo className={`${mobile ? styles.mobileLogo : styles.logo}`} />
+          <NavLink to="/" end><Logo className={`${mobile ? styles.mobileLogo : styles.logo}`} /></NavLink>
           {mobile &&
             <button 
               aria-label="Menu" 
@@ -31,7 +31,7 @@ const Header = () => {
         </div> 
 
         <ul className={`${mobile ? styles.navMobile : styles.nav1} ${mobileMenu && styles.navMobileActive}`}>
-          <NavLink className={styles.link} to="/">Home</NavLink>
+          <NavLink className={styles.link} to="/" end>Home</NavLink>
           <NavLink className={styles.link} to="marcas">Marcas</NavLink>
           <NavLink className={styles.link} to="contato">Contato</NavLink> 
           <NavLink className={`${styles.linkC}`} to="criarConta">Criar Conta</NavLink>

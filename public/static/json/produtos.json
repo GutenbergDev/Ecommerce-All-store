@@ -1,0 +1,181 @@
+[{
+  "userId": "slideMain",
+  "id": 1,
+  "name": "Nike Air1",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": "/static/img/slide-main/tenis-png.png"
+  },
+  {
+  "userId": "slideMain",
+  "id": 2,
+  "name": "Nike Air2",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": "/static/img/slide-main/tenis-png2.png"
+  },
+  {
+    "userId": "slideMain",
+    "id": 3,
+    "name": "Nike Air3",
+    "OldPrice": 320.00,
+    "price": 289.99,
+    "description": "Tênis Nike SB Chron Slr Preto",
+    "sizes": [39, 40],
+    "image": "/static/img/slide-main/tenis-png3.png"
+  },
+  {
+  "userId": "Air",
+  "id": 4,
+  "name": "Nike Air1",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-air/air1/air-1.jpg",
+    "/static/img/nike-air/air1/air-2.jpg",
+    "/static/img/nike-air/air1/air-3.jpg",
+    "/static/img/nike-air/air1/air-4.jpg"
+  ]
+},
+{
+  "userId": "Air",
+  "id": 5,
+  "name": "Nike Air2",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-air/air2/air-1.jpg",
+    "/static/img/nike-air/air2/air-2.jpg",
+    "/static/img/nike-air/air2/air-3.jpg",
+    "/static/img/nike-air/air2/air-4.jpg"
+  ]
+},
+{
+  "userId": "Air",
+  "id": 6,
+  "name": "Nike Air3",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-air/air3/air-1.jpg",
+    "/static/img/nike-air/air3/air-2.jpg",
+    "/static/img/nike-air/air3/air-3.jpg",
+    "/static/img/nike-air/air3/air-4.jpg"
+  ]
+},
+{
+  "userId": "Air",
+  "id": 7,
+  "name": "Nike Air4",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-air/air4/air-1.jpg",
+    "/static/img/nike-air/air4/air-2.jpg",
+    "/static/img/nike-air/air4/air-3.jpg",
+    "/static/img/nike-air/air4/air-4.jpg"
+  ]
+},
+{
+  "userId": "Air",
+  "id": 8,
+  "name": "Nike Air5",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-air/air5/air-1.jpg",
+    "/static/img/nike-air/air5/air-2.jpg",
+    "/static/img/nike-air/air5/air-3.jpg",
+    "/static/img/nike-air/air5/air-4.jpg"
+  ]
+},
+{
+  "userId": "Sb",
+  "id": 9,
+  "name": "Nike SB Black",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-sb/sb1/sb-1.jpg",
+    "/static/img/nike-sb/sb1/sb-2.jpg",
+    "/static/img/nike-sb/sb1/sb-3.jpg",
+    "/static/img/nike-sb/sb1/sb-4.jpg"
+  ]
+},
+{
+  "userId": "Sb",
+  "id": 10,
+  "name": "Nike SB Red",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-sb/sb2/sb-1.jpg",
+    "/static/img/nike-sb/sb2/sb-2.jpg",
+    "/static/img/nike-sb/sb2/sb-3.jpg",
+    "/static/img/nike-sb/sb2/sb-4.jpg"
+  ]
+},
+{
+  "userId": "Sb",
+  "id": 11,
+  "name": "Nike SB Blue",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-sb/sb3/sb-1.jpg",
+    "/static/img/nike-sb/sb3/sb-2.jpg",
+    "/static/img/nike-sb/sb3/sb-3.jpg",
+    "/static/img/nike-sb/sb3/sb-4.jpg"
+  ]
+},
+{
+  "userId": "Sb",
+  "id": 12,
+  "name": "Nike SB Green",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-sb/sb4/sb-1.jpg",
+    "/static/img/nike-sb/sb4/sb-2.jpg",
+    "/static/img/nike-sb/sb4/sb-3.jpg",
+    "/static/img/nike-sb/sb4/sb-4.jpg"
+  ]
+},
+{
+  "userId": "Sb",
+  "id": 13,
+  "name": "Nike SB Green",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Tênis Nike SB Chron Slr Preto",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/nike-sb/sb5/sb-1.jpg",
+    "/static/img/nike-sb/sb5/sb-2.jpg",
+    "/static/img/nike-sb/sb5/sb-3.jpg",
+    "/static/img/nike-sb/sb5/sb-4.jpg"
+  ]
+}
+]

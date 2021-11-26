@@ -7,6 +7,8 @@ const SlideMain = ({ slideMain }) => {
   const [position, setPosition] = React.useState(0);
   const contentRef = React.useRef();
 
+  let newProdutoSlide = slideMain.filter((produto) => produto.userId === 'slideMain')
+
   /*React.useEffect(() => {
     const { width } = contentRef.current.getBoundingClientRect();
     setPosition(-(width * active))
@@ -17,7 +19,7 @@ const SlideMain = ({ slideMain }) => {
 
     setTimeout(() => {
       setPosition(-(width * active))
-      if(active < slideMain.length - 1) {
+      if(active < newProdutoSlide.length - 1) {
         setActive(active + 1)
       } else if(active === 2) {
         setActive(0)
@@ -33,14 +35,14 @@ const SlideMain = ({ slideMain }) => {
         className={styles.content} 
         style={{ transform: `translateX(${position}px)` }}
       >
-        {slideMain.map((produto) => 
-          (<div 
+        {newProdutoSlide.map(produto => (<Link 
             className={styles.item} 
             key={produto.id}
+            to={`produto/${produto.id}`}
             >
-            <div>
-              <Link 
-                to={`produto/${produto.id}`} 
+
+              <div>
+              <div 
                 className={styles.linkSlideContainer}
                 >
                   <div className={styles.linkSlideItem}>
@@ -53,11 +55,12 @@ const SlideMain = ({ slideMain }) => {
                     </div>
                   </div>
                   <div className={styles.linkSlideItemTwo}>
-                    <img src={produto.image[0]} alt="" />
+                    <img src={produto.image} alt="" />
                   </div>
-              </Link>
+              </div>
             </div>
-          </div>
+          </Link>
+          
         ))}
       </div>
       <nav className={`${styles.nav}`}>

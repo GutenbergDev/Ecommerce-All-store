@@ -8,10 +8,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-sb/sb1/sb-1.jpg",
-      "./static/img/nike-sb/sb1/sb-2.jpg", 
-      "./static/img/nike-sb/sb1/sb-3.jpg",
-      "./static/img/nike-sb/sb1/sb-4.jpg" 
+      "/static/img/nike-sb/sb1/sb-1.jpg",
+      "/static/img/nike-sb/sb1/sb-2.jpg", 
+      "/static/img/nike-sb/sb1/sb-3.jpg",
+      "/static/img/nike-sb/sb1/sb-4.jpg" 
     ]
   },
   {
@@ -23,10 +23,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-sb/sb2/sb-1.jpg",
-      "./static/img/nike-sb/sb2/sb-2.jpg", 
-      "./static/img/nike-sb/sb2/sb-3.jpg",
-      "./static/img/nike-sb/sb2/sb-4.jpg" 
+      "/static/img/nike-sb/sb2/sb-1.jpg",
+      "/static/img/nike-sb/sb2/sb-2.jpg", 
+      "/static/img/nike-sb/sb2/sb-3.jpg",
+      "/static/img/nike-sb/sb2/sb-4.jpg" 
     ]
   },
   {
@@ -38,10 +38,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-sb/sb3/sb-1.jpg",
-      "./static/img/nike-sb/sb3/sb-2.jpg", 
-      "./static/img/nike-sb/sb3/sb-3.jpg",
-      "./static/img/nike-sb/sb3/sb-4.jpg" 
+      "/static/img/nike-sb/sb3/sb-1.jpg",
+      "/static/img/nike-sb/sb3/sb-2.jpg", 
+      "/static/img/nike-sb/sb3/sb-3.jpg",
+      "/static/img/nike-sb/sb3/sb-4.jpg" 
     ]
   },
   {
@@ -53,10 +53,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-sb/sb4/sb-1.jpg",
-      "./static/img/nike-sb/sb4/sb-2.jpg", 
-      "./static/img/nike-sb/sb4/sb-3.jpg",
-      "./static/img/nike-sb/sb4/sb-4.jpg" 
+      "/static/img/nike-sb/sb4/sb-1.jpg",
+      "/static/img/nike-sb/sb4/sb-2.jpg", 
+      "/static/img/nike-sb/sb4/sb-3.jpg",
+      "/static/img/nike-sb/sb4/sb-4.jpg" 
     ]
   },
   {
@@ -68,10 +68,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-sb/sb5/sb-1.jpg",
-      "./static/img/nike-sb/sb5/sb-2.jpg", 
-      "./static/img/nike-sb/sb5/sb-3.jpg",
-      "./static/img/nike-sb/sb5/sb-4.jpg" 
+      "/static/img/nike-sb/sb5/sb-1.jpg",
+      "/static/img/nike-sb/sb5/sb-2.jpg", 
+      "/static/img/nike-sb/sb5/sb-3.jpg",
+      "/static/img/nike-sb/sb5/sb-4.jpg" 
     ]
   },
   {
@@ -83,10 +83,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-air/air1/air-1.jpg",
-      "./static/img/nike-air/air1/air-2.jpg", 
-      "./static/img/nike-air/air1/air-3.jpg",
-      "./static/img/nike-air/air1/air-4.jpg" 
+      "/static/img/nike-air/air1/air-1.jpg",
+      "/static/img/nike-air/air1/air-2.jpg", 
+      "/static/img/nike-air/air1/air-3.jpg",
+      "/static/img/nike-air/air1/air-4.jpg" 
     ]
   },
   {
@@ -98,10 +98,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-air/air2/air-1.jpg",
-      "./static/img/nike-air/air2/air-2.jpg", 
-      "./static/img/nike-air/air2/air-3.jpg",
-      "./static/img/nike-air/air2/air-4.jpg" 
+      "/static/img/nike-air/air2/air-1.jpg",
+      "/static/img/nike-air/air2/air-2.jpg", 
+      "/static/img/nike-air/air2/air-3.jpg",
+      "/static/img/nike-air/air2/air-4.jpg" 
     ]
   },
   {
@@ -113,10 +113,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-air/air3/air-1.jpg",
-      "./static/img/nike-air/air3/air-2.jpg", 
-      "./static/img/nike-air/air3/air-3.jpg",
-      "./static/img/nike-air/air3/air-4.jpg" 
+      "/static/img/nike-air/air3/air-1.jpg",
+      "/static/img/nike-air/air3/air-2.jpg", 
+      "/static/img/nike-air/air3/air-3.jpg",
+      "/static/img/nike-air/air3/air-4.jpg" 
     ]
   },
   {
@@ -128,10 +128,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-air/air4/air-1.jpg",
-      "./static/img/nike-air/air4/air-2.jpg", 
-      "./static/img/nike-air/air4/air-3.jpg",
-      "./static/img/nike-air/air4/air-4.jpg" 
+      "/static/img/nike-air/air4/air-1.jpg",
+      "/static/img/nike-air/air4/air-2.jpg", 
+      "/static/img/nike-air/air4/air-3.jpg",
+      "/static/img/nike-air/air4/air-4.jpg" 
     ]
   },
   {
@@ -143,10 +143,10 @@
     "description": "Tênis Nike SB Chron Slr Preto",
     "sizes": [39, 40],
     "image": [
-      "./static/img/nike-air/air5/air-1.jpg",
-      "./static/img/nike-air/air5/air-2.jpg", 
-      "./static/img/nike-air/air5/air-3.jpg",
-      "./static/img/nike-air/air5/air-4.jpg" 
+      "/static/img/nike-air/air5/air-1.jpg",
+      "/static/img/nike-air/air5/air-2.jpg", 
+      "/static/img/nike-air/air5/air-3.jpg",
+      "/static/img/nike-air/air5/air-4.jpg" 
     ]
   }
 ]
