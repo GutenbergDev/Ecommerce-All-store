@@ -15,9 +15,25 @@ const ProdutosNew = () => {
     fetchProduto(`/static/json/ProdutosSlide.json`);
   }, [nameId])
     console.log(produto)
+    if(produto === null) return null;
   return (
     <section className={styles.produtosNew}>
-    
+      <div className={styles.containerProdutoNew}>
+        <div className={styles.containerProduto1}>
+          <div className={styles.produtoImageMini}>
+            <img src={produto.image[1]} alt=""/>
+            <img src={produto.image[2]} alt=""/>
+            <img src={produto.image[3]} alt=""/>
+            <img src={produto.image[4]} alt=""/>
+          </div>
+          <div className={styles.produtoImage}>
+            <img src={produto.image[0]} alt=""/>
+          </div>
+        </div>
+        <div className={styles.containerProduto2}>
+          lll
+        </div>
+      </div>
     </section>
   )
 }

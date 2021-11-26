@@ -1,7 +1,41 @@
 .produtosNew {
   max-width: 82.5rem;
   height: 200px;
-  background: #ccc;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.containerProdutoNew {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerProduto1 {
+  display: flex;
+  width: 50%;
+}
+
+.containerProduto2 {
+  width: 50%;
+}
+
+.produtoImage {
+  display: flex;
+  max-width: 50%;
+}
+
+.produtoImage img {
+  width: 100%;
+}
+
+.produtoImageMini {
+  margin-right: 1rem;
+}
+
+.produtoImageMini img {
+  width: 90px;
 }
