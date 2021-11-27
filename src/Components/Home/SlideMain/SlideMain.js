@@ -12,8 +12,9 @@ const SlideMain = ({ slideMain }) => {
 
   React.useEffect(() => {
     const { width } = contentRef.current.getBoundingClientRect();
+    
 
-    setTimeout(() => {
+   const timer = setTimeout(() => {
       setPosition(-(width * active))
       if(active < newProdutoSlide.length - 1) {
         setActive(active + 1)
@@ -21,6 +22,8 @@ const SlideMain = ({ slideMain }) => {
         setActive(0)
       }
     }, 5000)
+
+    return () => clearTimeout(timer)
   }, [active])
 
   return (
@@ -36,7 +39,7 @@ const SlideMain = ({ slideMain }) => {
 
               <div>
               <div 
-                className={styles.linkSlideContainer}
+                className={`${styles.linkSlideContainer} animeLeft`}
                 >
                   <div className={styles.linkSlideItem}>
                     <div>

@@ -4,6 +4,7 @@ import styles from './ProdutosNew.module.css';
 
 const ProdutosNew = () => {
   const [produto, setProduto] = React.useState(null);
+  const [produtoIndex, setProdutoIndex] = React.useState(null);
   const { nameId } = useParams()
 
   React.useEffect(() => {
@@ -14,20 +15,44 @@ const ProdutosNew = () => {
     }
     fetchProduto(`/static/json/ProdutosSlide.json`);
   }, [nameId])
-    console.log(produto)
-    if(produto === null) return null;
+
+  React.useEffect(() => {
+    if(produto) {
+      setProdutoIndex(produto.image[0])
+    }
+  }, [produto]);
+
+  console.log(`Aqui produtoIndex:`, produtoIndex)
+  console.log(`Aqui produto:`, produto)
+
+    function handleClick(item) {
+        setProdutoIndex(item.target.src)
+    }
+
+    //function handleClick(item) {
+    //    setProdutoIndex(item.target.src)
+    //}
+    ////console.log(produto)
+
+
+  if(produto === null) return null;
   return (
     <section className={styles.produtosNew}>
-      <div className={styles.containerProdutoNew}>
+      <div className={`${styles.containerProdutoNew} animeLeft`}>
         <div className={styles.containerProduto1}>
           <div className={styles.produtoImageMini}>
-            <img src={produto.image[1]} alt=""/>
-            <img src={produto.image[2]} alt=""/>
-            <img src={produto.image[3]} alt=""/>
-            <img src={produto.image[4]} alt=""/>
+          {produto.image.map((foto, index) => (
+              <img 
+                key={index} 
+                src={foto} 
+                onClick={handleClick} 
+                className={styles.imageActive}
+              /> 
+            )
+          )}
           </div>
-          <div className={styles.produtoImage}>
-            <img src={produto.image[0]} alt=""/>
+          <div className={`${styles.produtoImage}`}>
+            <img src={produtoIndex}/>
           </div>
         </div>
         <div className={styles.containerProduto2}>
