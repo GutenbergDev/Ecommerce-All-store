@@ -24,7 +24,7 @@ const ProdutoSlide = () => {
   return (
     <section className={styles.containerProduto}>
       <Head 
-        title={`Produto`} 
+        title={`Produtos`} 
         description={`Descrição do site Ranek`} 
       />
       <div className={styles.produto}>

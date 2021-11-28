@@ -12,20 +12,34 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  height: auto;
 }
 
 .containerProduto1 {
-  display: flex;
-  width: 60rem;
+  position: relative;
+  width: 20rem;
+  z-index: 50;
+}
+
+.containerProduto1 img {
+  position: absolute;
+  top: -10px;
+  z-index: 40;
 }
 
 .containerProduto2 {
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+}
+
+.containerProduto3 {
+  width: 20rem;
 }
 
 .produtoImage {
   display: flex;
-  max-width: 30rem;
+  width: 30rem;
 }
 
 .produtoImage img {
@@ -45,5 +59,37 @@
 
 
 .imageActive {
-  border: 1px solid red;
+  cursor: pointer;
+}
+
+.containerPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black1-color);
+}
+
+.cardPrice {
+  display: block;
+  max-width: 1rem;
+  max-height: 1rem;
+  background: var(--nextPrev-color);
+}
+
+.oldPrice {
+  color: var(--logo-color);
+  text-decoration: line-through;
+}
+
+.parcelas {
+  font-weight: bold;
+  color: var(--nextPrev-color);
+}
+
+@media (min-width: 768px) and (max-width: 961px){
+
 }
