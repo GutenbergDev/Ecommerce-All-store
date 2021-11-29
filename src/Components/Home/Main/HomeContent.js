@@ -31,8 +31,8 @@ const HomeContent = ({ camisetas }) => {
             <div className={styles.priceStyle}>
               <span className={styles.price}>R$ {camiseta[0].price}</span>
             </div>
-            <span className={styles.oldPrice}>R$ {(camiseta[0].OldPrice).toFixed(2)}</span>
-            <span>ou 12x de <span className={styles.parcelas}>R$ {(camiseta[0].OldPrice / 12).toFixed(2)}</span></span>
+            
+            <span><span className={styles.oldPrice}>R$ {(camiseta[0].OldPrice).toFixed(2)}</span> ou 12x de <span className={styles.parcelas}>R$ {(camiseta[0].OldPrice / 12).toFixed(2)}</span></span>
           </div>
          </div>
        </div>
