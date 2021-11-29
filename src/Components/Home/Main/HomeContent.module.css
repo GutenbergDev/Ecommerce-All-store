@@ -12,6 +12,7 @@
 
 .mainContainer1 {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   width: 50rem;
   height: auto;
@@ -21,9 +22,60 @@
   border-radius: 5px;
 }
 
+.mainContainer1 .btnContainer {
+  max-width: 20rem;
+  padding-left: 1rem;
+}
+
+.mainContainer1 .btnMain {
+  display: block;
+  background: transparent;
+  position: relative;
+  width: 12rem;
+  height: 2.5rem;
+  margin: -1rem 0 0 -1rem;
+  border: 0;
+  color: #fff;
+}
+
+.mainContainer1 .btnMain::before {
+  content: "";
+  position: absolute;
+  border: .1rem solid #000;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  top: .2rem;
+  right: 0;
+  bottom: 0;
+  left: .3rem;
+}
+
+.btnMainText {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: .5rem;
+    bottom: .5rem;
+    left: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    background: var(--logo-color);
+    padding: 1.2rem;
+    margin-top: -.1rem;
+    margin-right: -.4rem;
+}
+
+.mainContainer1 .btnMainText:active {
+  transform: translateX(.2rem) translateY(.2rem);
+}
+
 .mainContainer1Item h3 {
   font-size: 2rem;
   margin-bottom: .5rem;
+  color: var(--black1-color);
 }
 
 .mainContainer1Item p {
