@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Head from '../../Head';
 import styles from './SlideMain.module.css';
 
 const SlideMain = ({ slideMain }) => {
@@ -28,7 +27,6 @@ const SlideMain = ({ slideMain }) => {
 
   return (
     <section className={`${styles.containerS}`}>
-      <Head title={`New Nike Air`} description={`Descrição do site Ranek`} />
       <div 
         ref={contentRef}
         className={styles.content} 

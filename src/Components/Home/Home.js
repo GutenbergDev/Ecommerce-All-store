@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from '../Head';
 import styles from './Home.module.css';
 import SlideMain from './SlideMain/SlideMain';
 
@@ -19,6 +20,7 @@ const Home = () => {
   return (
     <>
       <div className={styles.slideMain}>
+      <Head title={`Shoes | Home`} description={`Descrição do site Ranek`} />
         <SlideMain slideMain={produtos} />
       </div>
     </>

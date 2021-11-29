@@ -1,6 +1,8 @@
 [{
   "userId": "ProdutoSlide",
   "nameId": "tenis-1",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "new",
   "model": "Air",
   "id": 1,
@@ -21,6 +23,8 @@
 {
   "userId": "ProdutoSlide",
   "nameId": "tenis-2",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "new",
   "model": "Air",
   "id": 2,
@@ -41,6 +45,8 @@
 {
   "userId": "ProdutoSlide",
   "nameId": "tenis-3",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "new",
   "model": "Air",
   "id": 3,
@@ -61,6 +67,8 @@
 {
   "userId": "ProdutoSlide",
   "nameId": "tenis-4",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "model": "Air",
   "id": 4,
@@ -80,6 +88,8 @@
   {
   "userId": "Air",
   "nameId": "air-max1",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 5,
   "name": "Nike Air1",
@@ -113,6 +123,8 @@
 {
   "userId": "Air",
   "nameId": "air-max3",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 6,
   "name": "Nike Air3",
@@ -130,6 +142,8 @@
 {
   "userId": "Air",
   "nameId": "air-max4",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 7,
   "name": "Nike Air4",
@@ -147,6 +161,8 @@
 {
   "userId": "Air",
   "nameId": "air-max5",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 8,
   "name": "Nike Air5",
@@ -164,6 +180,8 @@
 {
   "userId": "Sb",
   "nameId": "sb-1",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 9,
   "name": "Nike SB Black",
@@ -181,6 +199,8 @@
 {
   "userId": "Sb",
   "nameId": "sb-2",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 10,
   "name": "Nike SB Red",
@@ -198,6 +218,8 @@
 {
   "userId": "Sb",
   "nameId": "sb-3",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 11,
   "name": "Nike SB Blue",
@@ -215,6 +237,8 @@
 {
   "userId": "Sb",
   "nameId": "sb-4",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 12,
   "name": "Nike SB Green",
@@ -232,6 +256,8 @@
 {
   "userId": "Sb",
   "nameId": "sb-5",
+  "product": "tenis",
+  "brand": "Nike",
   "status": "old",
   "id": 13,
   "name": "Nike SB Green",
@@ -244,6 +270,74 @@
     "/static/img/nike-sb/sb5/sb-2.jpg",
     "/static/img/nike-sb/sb5/sb-3.jpg",
     "/static/img/nike-sb/sb5/sb-4.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-1",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 14,
+  "name": "Regata Jordan Giannis Antetokounmpo Bucks Statement Edition 2020 Masculina",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Cores alternativas ousadas e detalhes distinguem a Statement Edition, uma camisa que simboliza a força coletiva, o espírito e a mentalidade competitiva da escalação. A camisa Jordan NBA Swingman Statement Edition dos Milwaukee Bucks é inspirada no que os profissionais usam. É fabricada com tecido de malha dupla de alta qualidade com um caimento confortável que fica excelente nos fãs.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq1/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq1/camiseta2.png"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-2",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 15,
+  "name": "Regata Nike Bulls Icon Edition 2020 Masculina",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressas por meio das cores marcantes do time. A camisa Nike NBA Swingman Bulls Icon Edition do Chicago Bulls é inspirada na que os craques usam nos jogos. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos. Este produto é feito com 100% de tecido de poliéster reciclado.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq2/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq2/camiseta2.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-3",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 16,
+  "name": "Regata Jordan Los Angeles Lakers Statement Edition 2020 Masculina",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "Cores e detalhes alternativos e ousados distinguem a Statement Edition, uma camisa que simboliza a força coletiva, o espírito e a mentalidade competitiva da escalação. A camisa Jordan NBA Swingman Statement Edition dos Los Angeles Lakers é inspirada na que os craques usam. É fabricada com tecido de malha dupla de alta qualidade com um caimento confortável que fica excelente nos fãs. Este produto é feito com 100% de fibras de poliéster reciclado.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq3/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq3/camiseta2.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-4",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 17,
+  "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
+  "OldPrice": 320.00,
+  "price": 289.99,
+  "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressa através da cor primária ousada da equipe. A camisa Nike NBA Icon Edition Swingman do Los Angeles Lakers é inspirada na que os craques usam. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta2.jpg"
   ]
 }
 ]

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router';
+import Head from '../../Head';
 import styles from './ProdutosNew.module.css';
 
 const ProdutosNew = () => {
@@ -28,12 +29,6 @@ const ProdutosNew = () => {
     function handleClick(item) {
         setProdutoIndex(item.target.src)
     }
-
-    //function handleClick(item) {
-    //    setProdutoIndex(item.target.src)
-    //}
-    ////console.log(produto)
-
 
   if(produto === null) return null;
   return (
