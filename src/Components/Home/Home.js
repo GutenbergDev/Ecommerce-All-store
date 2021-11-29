@@ -23,7 +23,7 @@ const Home = () => {
       <div className={styles.slideMain}>
       <Head title={`Shoes | Home`} description={`Descrição do site Ranek`} />
         <SlideMain slideMain={produtos} />
-        <HomeContent />
+        <HomeContent camisetas={produtos}/>
       </div>
     </>
   )
