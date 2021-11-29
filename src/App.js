@@ -9,6 +9,7 @@ import CriarConta from './Components/Login/CriarConta';
 import Home from './Components/Home/Home';
 import ProdutoSlide from './Components/Home/SlideMain/ProdutoSlide';
 import ProdutosNew from './Components/Home/SlideMain/ProdutosNew';
+import Camisetas from './Components/Home/Main/Camisetas';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="criarConta" element={<CriarConta />} />
             <Route path="produtos/:nameId" element={<ProdutoSlide />} />
             <Route path="produto/:nameId" element={<ProdutosNew />} />
+            <Route path="camisetas/:userId" element={<Camisetas />} />
           </Routes>
         </div>  
 

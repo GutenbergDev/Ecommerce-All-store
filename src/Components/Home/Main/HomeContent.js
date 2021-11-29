@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from '../Main/HomeContent.module.css';
 
 const HomeContent = ({ camisetas }) => {
@@ -39,9 +40,9 @@ const HomeContent = ({ camisetas }) => {
           </div>
          </div>
          <div className={styles.btnContainer}>
-            <button className={styles.btnMain}>
+            <Link to={`/camisetas/${camiseta[0].userId}`} className={styles.btnMain}>
               <span className={styles.btnMainText}>Ver Mais</span>
-            </button>
+            </Link>
           </div>
        </div>
        <div className={styles.mainContainer2}>

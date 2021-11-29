@@ -7,6 +7,10 @@ import styles from './ProdutoSlide.module.css';
 const ProdutoSlide = () => {
   const [produtosSlide, setProdutosSlide] = React.useState(null)
 
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
 
   React.useEffect(() => {
     async function fetchProdutosSlide(url) {
