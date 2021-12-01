@@ -89,16 +89,6 @@
   max-width: 350px;
 }
 
-.mainContainer2 {
-  display: flex;
-  width: 30rem;
-  height: auto;
-  overflow: hidden;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.25);
-}
-
 .containerPrice {
   display: flex;
   flex-direction: column;
@@ -126,4 +116,25 @@
 .parcelas {
   font-weight: bold;
   color: var(--nextPrev-color);
+}
+
+.mainContainer2 {
+  display: flex;
+  justify-content: center;
+  width: 30rem;
+  height: auto;
+  overflow: hidden;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.nameSb {
+  display: flex;
+  max-width: 18rem;
+  height: 10rem;
+}
+
+.nameSb h3 {
+  font-size: 2rem;
 }
