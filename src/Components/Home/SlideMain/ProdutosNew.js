@@ -9,6 +9,10 @@ const ProdutosNew = () => {
   const { nameId } = useParams()
 
   React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  React.useEffect(() => {
     async function fetchProduto(url) {
       const response = await fetch(url);
       const json = await response.json();
@@ -59,18 +63,19 @@ const ProdutosNew = () => {
               <span className={styles.price}>R$ {produto.price}</span>
             </div>
             <span className={styles.oldPrice}>R$ {(produto.OldPrice).toFixed(2)}</span>
-            <span>ou 12x de <span className={styles.parcelas}>R$ {(produto.OldPrice / 12).toFixed(2)}</span></span>
+            <span>em 12x de <span className={styles.parcelas}>R$ {(produto.OldPrice / 12).toFixed(2)}</span></span>
+            <span>ou <span className={styles.parcelas}>R$ {(produto.price - produto.price * 0.1).toFixed(2)} à vista.</span></span>
           </div>
-          <div>
-
+          <div className={styles.brandContent}>
+            <span>Marca: <span className={styles.brand}>{produto.brand}</span></span>
           </div>
+          <div className={styles.hrPrice}></div>
           <div>
-            <div>
-
+          <div className={styles.btnContainer}>
+            <div className={styles.btnMain}>
+              <span className={styles.btnMainText}>Comprar</span>
             </div>
-            <div>
-
-            </div>
+          </div>
           </div>
         </div>
       </div>

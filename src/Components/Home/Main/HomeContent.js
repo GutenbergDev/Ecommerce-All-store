@@ -20,7 +20,7 @@ const HomeContent = ({ camisetas }) => {
   return (
     <section className={styles.container}>
       <div className={styles.mainContent}>
-       <div className={styles.mainContainer1}>
+       <div className={`${styles.mainContainer1} animeLeft`}>
          <div style={{ display: 'flex' }}>
           <div className={styles.mainContainer1Item}>
               <h3>{camiseta[0].name}</h3>
@@ -29,7 +29,9 @@ const HomeContent = ({ camisetas }) => {
           </div>
           <div className={styles.mainContainer1Item2}>
             <div>
-              <img src={camiseta[0].image[0]} alt="" />
+              <Link to={`/camisetas/${camiseta[0].userId}`}>
+                <img src={camiseta[0].image[0]} alt="" />
+              </Link>
             </div>
             <div className={styles.containerPrice}>
               <div className={styles.priceStyle}>
@@ -45,7 +47,7 @@ const HomeContent = ({ camisetas }) => {
             </Link>
           </div>
        </div>
-       <div className={styles.mainContainer2}>
+       <div className={`${styles.mainContainer2} animeLeft`}>
           bb
        </div>
       </div>

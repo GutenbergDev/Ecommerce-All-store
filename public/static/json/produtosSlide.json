@@ -2,6 +2,7 @@
   {
     "userId": "ProdutoSlide",
     "nameId": "tenis-1",
+    "brand": "Nike",
     "status": "new",
     "model": "Air",
     "id": 1,
@@ -22,6 +23,7 @@
   {
     "userId": "ProdutoSlide",
     "nameId": "tenis-2",
+    "brand": "Nike",
     "status": "new",
     "model": "Air",
     "id": 2,
@@ -42,6 +44,7 @@
   {
     "userId": "ProdutoSlide",
     "nameId": "tenis-3",
+    "brand": "Nike",
     "status": "new",
     "model": "Air",
     "id": 3,
@@ -62,6 +65,7 @@
   {
     "userId": "ProdutoSlide",
     "nameId": "tenis-4",
+    "brand": "Nike",
     "status": "old",
     "model": "Air",
     "id": 4,
