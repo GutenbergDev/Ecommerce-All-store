@@ -10,9 +10,8 @@ const SlideMain = ({ slideMain }) => {
   let newProdutoSlide = slideMain.filter((produto) => produto.status === 'new')
 
   React.useEffect(() => {
-    const { width } = contentRef.current.getBoundingClientRect();
-    
-
+   const { width } = contentRef.current.getBoundingClientRect();
+   
    const timer = setTimeout(() => {
       setPosition(-(width * active))
       if(active < newProdutoSlide.length - 1) {

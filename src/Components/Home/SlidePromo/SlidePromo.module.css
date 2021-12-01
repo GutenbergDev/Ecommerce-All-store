@@ -1,7 +1,55 @@
 .container {
   max-width: 82.5rem;
-  background: cornflowerblue;
   margin: 0 auto;
   padding: 2rem 1rem;
   overflow: hidden;
+  z-index: 1;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  flex-shrink: 0;
+  width: 20rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: #ccc;
+  justify-content: space-between;
+  margin: 0 .2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav .Prev, .nav .Next {
+  display: block;
+  padding: 2px 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: var(--nextPrev-color);
+  color: var(--main-color);
+  position: absolute;
+}
+
+.Prev {
+  top: -4rem;
+  left: -1rem;
+  z-index: 5;
+}
+
+.Next {
+  top: -4rem;
+  right: -1rem;
+  z-index: 5;
 }
