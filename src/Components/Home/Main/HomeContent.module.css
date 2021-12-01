@@ -133,7 +133,6 @@
 .nameSb {
   display: flex;
   max-width: 18rem;
-  height: 8rem;
 }
 
 .nameSb h3 {
@@ -148,4 +147,56 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.btnContainer2 {
+  max-width: 20rem;
+  padding-left: 1rem;
+  margin-top: 3rem;
+}
+
+.btnMain2 {
+  display: block;
+  background: transparent;
+  position: relative;
+  width: 12rem;
+  height: 2.5rem;
+  margin: -1rem 0 0 -1rem;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnMain2::before {
+  content: "";
+  position: absolute;
+  border: .1rem solid #333;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  top: .2rem;
+  right: 0;
+  bottom: 0;
+  left: .3rem;
+}
+
+.btnMainText2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: .5rem;
+  bottom: .5rem;
+  left: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  background: var(--logo-color);
+  padding: 1.2rem;
+  margin-top: -.1rem;
+  margin-right: -.4rem;
+}
+
+.mainContainer1 .btnMainText:active {
+  transform: translateX(.2rem) translateY(.2rem);
 }

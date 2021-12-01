@@ -4,13 +4,7 @@ import styles from '../Main/HomeContent.module.css';
 
 const HomeContent = ({ sectionNews }) => {
   const camiseta = sectionNews.filter((camiseta) => camiseta.nameId === "basq-3");
-
   const nikeSb = sectionNews.filter((nikeSb) => nikeSb.nameId === "sb-1");
-
-  console.log(`Aqui Camiseta`, camiseta[0])
-  console.log(`Aqui Sb`, nikeSb[0])
-
-
 
   return (
     <section className={styles.container}>
@@ -51,10 +45,15 @@ const HomeContent = ({ sectionNews }) => {
             </Link>
           </div>
           <div className={styles.priceSb}>
-          < div className={styles.priceStyle}>
-            <span className={styles.price}>R$ {(nikeSb[0].price).toFixed(2)}</span>
+            < div className={styles.priceStyle}>
+              <span className={styles.price}>R$ {(nikeSb[0].price).toFixed(2)}</span>
+            </div>
+            <span><span className={styles.oldPrice}>R$ {(nikeSb[0].OldPrice).toFixed(2)}</span> ou 12x de <span className={styles.parcelas}>R$ {(nikeSb[0].OldPrice / 12).toFixed(2)}</span></span>
           </div>
-          <span><span className={styles.oldPrice}>R$ {(nikeSb[0].OldPrice).toFixed(2)}</span> ou 12x de <span className={styles.parcelas}>R$ {(nikeSb[0].OldPrice / 12).toFixed(2)}</span></span>
+          <div className={styles.btnContainer2}>
+            <Link to={`/sbprodutos/${nikeSb[0].userId}`} className={styles.btnMain2}>
+              <span className={styles.btnMainText2}>Ver Mais</span>
+            </Link>
           </div>
        </div>
       </div>
