@@ -1,0 +1,7 @@
+.container {
+  max-width: 82.5rem;
+  background: cornflowerblue;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  overflow: hidden;
+}

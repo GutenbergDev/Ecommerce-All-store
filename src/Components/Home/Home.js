@@ -3,6 +3,7 @@ import Head from '../Head';
 import styles from './Home.module.css';
 import HomeContent from './Main/HomeContent';
 import SlideMain from './SlideMain/SlideMain';
+import SlidePromo from './SlidePromo/SlidePromo';
 
 const Home = () => {
   const [produtos, setProdutos] = React.useState(null);
@@ -24,11 +25,14 @@ const Home = () => {
 
   return (
     <>
-      <div className={styles.slideMain}>
+      <section className={styles.slideMain}>
       <Head title={`Shoes | Home`} description={`Descrição do site Ranek`} />
         <SlideMain slideMain={produtos} />
-        <HomeContent sectionNews={produtos}/>
-      </div>
+      </section>
+      <main>
+        <HomeContent sectionNews={produtos} />
+        <SlidePromo sectionPromo={produtos} />
+      </main>
     </>
   )
 }
