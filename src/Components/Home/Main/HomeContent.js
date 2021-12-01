@@ -45,6 +45,17 @@ const HomeContent = ({ sectionNews }) => {
           <div className={styles.nameSb}>
             <h3>{nikeSb[0].name}</h3>
           </div>
+          <div className={styles.imgSb}>
+            <Link to={`/sbprodutos/${nikeSb[0].userId}`}>
+              <img src={nikeSb[0].image[0]} alt="" />
+            </Link>
+          </div>
+          <div className={styles.priceSb}>
+          < div className={styles.priceStyle}>
+            <span className={styles.price}>R$ {(nikeSb[0].price).toFixed(2)}</span>
+          </div>
+          <span><span className={styles.oldPrice}>R$ {(nikeSb[0].OldPrice).toFixed(2)}</span> ou 12x de <span className={styles.parcelas}>R$ {(nikeSb[0].OldPrice / 12).toFixed(2)}</span></span>
+          </div>
        </div>
       </div>
     </section>

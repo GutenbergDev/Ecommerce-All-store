@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import ProdutoSlide from './Components/Home/SlideMain/ProdutoSlide';
 import ProdutosNew from './Components/Home/SlideMain/ProdutosNew';
 import Camisetas from './Components/Home/Main/Camisetas';
+import NikeSbProdutos from './Components/Home/Main/NikeSbProdutos';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="produtos/:nameId" element={<ProdutoSlide />} />
             <Route path="produto/:nameId" element={<ProdutosNew />} />
             <Route path="camisetas/:userId" element={<Camisetas />} />
+            <Route path="sbprodutos/:nameId" element={<NikeSbProdutos />} />
           </Routes>
         </div>  
 

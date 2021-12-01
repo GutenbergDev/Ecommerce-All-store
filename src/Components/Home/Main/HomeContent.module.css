@@ -120,7 +120,8 @@
 
 .mainContainer2 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 30rem;
   height: auto;
   overflow: hidden;
@@ -132,9 +133,19 @@
 .nameSb {
   display: flex;
   max-width: 18rem;
-  height: 10rem;
+  height: 8rem;
 }
 
 .nameSb h3 {
   font-size: 2rem;
+}
+
+.imgSb {
+  max-width: 14rem;
+}
+
+.priceSb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

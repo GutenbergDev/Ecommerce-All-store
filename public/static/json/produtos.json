@@ -185,9 +185,9 @@
   "status": "old",
   "id": 9,
   "name": "Tênis Nike SB Chron 2 Unissex",
-  "OldPrice": 320.00,
-  "price": 289.99,
-  "description": "Tênis Nike SB Chron Slr Preto",
+  "OldPrice": 310.00,
+  "price": 280.00,
+  "description": "Tênis Nike SB Chron Slr Unissex",
   "sizes": [39, 40],
   "image": [
     "/static/img/nike-sb/sb1/sb-1.jpg",
