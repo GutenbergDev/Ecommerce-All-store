@@ -32,8 +32,15 @@ const SlidePromo = ({ sectionPromo }) => {
           >
             <div>
               <div className={`${styles.linkContainerPromo}`}>
-                <div>
-                  {promo.name}
+                <div className={styles.imgWidth}>
+                  <img src={promo.image[0]} alt="" />
+                </div>
+                <div className={styles.nameproduct}>
+                  <h3>{promo.name}</h3>
+                </div>
+                <div className={`${styles.dadosItem}`}>
+                  <span className={styles.oldPrice}>R$ {promo.OldPrice}.00</span>
+                  <span className={styles.price}>R$ {(promo.price).toFixed(2)}</span>
                 </div>
               </div>
             </div>  

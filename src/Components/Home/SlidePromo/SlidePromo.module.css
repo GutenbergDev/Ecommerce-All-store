@@ -20,9 +20,36 @@
   width: 20rem;
   margin: 0 auto;
   padding: 2rem 1rem;
-  background: #ccc;
-  justify-content: space-between;
-  margin: 0 .2rem;
+  margin: 0 .2rem;  
+}
+
+.linkContainerPromo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+}
+
+.nameproduct {
+  display: flex;
+}
+
+.dadosItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: var(--logo-color);
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--nextPrev-color);
 }
 
 .nav {
@@ -43,13 +70,13 @@
 }
 
 .Prev {
-  top: -4rem;
+  top: -9rem;
   left: -1rem;
   z-index: 5;
 }
 
 .Next {
-  top: -4rem;
+  top: -9rem;
   right: -1rem;
   z-index: 5;
 }
