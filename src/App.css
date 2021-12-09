@@ -14,6 +14,7 @@
   --footer-color: #1E2E41;
   --black1-color: #333;
   --nextPrev-color: #00AF97;
+  --nextPrev-colorLight: #40c5b385;
   --oldPrice-color: #6D6D6D;
 }
 
@@ -79,4 +80,31 @@ a {
     transform: initial;
     opacity: initial;
   }
+}
+
+/* Alteração arrow slick */
+
+.slick-prev, .slick-next {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  z-index: 100;
+  background-color: var(--nextPrev-colorLight);
+  padding: .2rem;
+  cursor: pointer;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: var(--nextPrev-color);
+}
+
+.slick-prev {
+  left: 1rem;
+  top: 10rem;
+}
+
+.slick-next {
+  right: 1rem;
+  top: 10rem;
 }

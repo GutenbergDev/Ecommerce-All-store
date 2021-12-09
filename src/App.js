@@ -12,6 +12,7 @@ import ProdutosNew from './Components/Home/SlideMain/ProdutosNew';
 import Camisetas from './Components/Home/Main/Camisetas';
 import NikeSbProdutos from './Components/Home/Main/NikeSbProdutos';
 import PromoProdutos from './Components/Home/SlidePromo/PromoProdutos';
+import "slick-carousel/slick/slick.css"; 
 
 const App = () => {
   return (
