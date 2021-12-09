@@ -9,7 +9,7 @@
   "name": "Novo Nike Air Max",
   "OldPrice": 520.00,
   "price": 489.99,
-  "discount": false,
+  "discount": 10,
   "description": "Nada mais estiloso, nada tão confortável, nada tão comprovado Nike Air Max 90 permanece fiel às suas raízes com o solado Waffle icônico, camadas costuradas e detalhes em TPU clássicos. Cores atuais proporcionam um visual moderno, enquanto o amortecimento Air Max acrescenta conforto à sua jornada.",
   "sizes": [39, 40],
   "imageSlide": "/static/img/slide-main/air1/img-slide1.png",
@@ -32,7 +32,7 @@
   "name": "Novo Nike Air Max",
   "OldPrice": 440.00,
   "price": 389.99,
-  "discount": false,
+  "discount": 11,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "imageSlide": "/static/img/slide-main/air2/img-slide2.png",
@@ -55,7 +55,7 @@
   "name": "Novo Nike Air Max",
   "OldPrice": 620.00,
   "price": 569.99,
-  "discount": true,
+  "discount": 12,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "imageSlide": "/static/img/slide-main/air3/img-slide3.png",
@@ -78,7 +78,7 @@
   "name": "Novo Nike Air Max",
   "OldPrice": 635.00,
   "price": 619.99,
-  "discount": false,
+  "discount": 9,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -99,7 +99,7 @@
   "name": "Nike Air1",
   "OldPrice": 420.00,
   "price": 399.99,
-  "discount": true,
+  "discount": 13,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -116,7 +116,7 @@
   "name": "Nike Air2",
   "OldPrice": 320.00,
   "price": 289.99,
-  "discount": false,
+  "discount": 5,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -136,7 +136,7 @@
   "name": "Nike Air3",
   "OldPrice": 220.00,
   "price": 219.99,
-  "discount": false,
+  "discount": 8,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -156,7 +156,7 @@
   "name": "Nike Air4",
   "OldPrice": 320.00,
   "price": 289.99,
-  "discount": true,
+  "discount": 15,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -176,7 +176,7 @@
   "name": "Nike Air5",
   "OldPrice": 320.00,
   "price": 235.99,
-  "discount": true,
+  "discount": 12,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -196,7 +196,7 @@
   "name": "Tênis Nike SB Chron",
   "OldPrice": 310.00,
   "price": 180.00,
-  "discount": 0.15,
+  "discount": 15,
   "description": "Tênis Nike SB Chron Slr Unissex",
   "sizes": [39, 40],
   "image": [
@@ -216,7 +216,7 @@
   "name": "Nike SB Red",
   "OldPrice": 320.00,
   "price": 190.99,
-  "discount": false,
+  "discount": 10,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -236,7 +236,7 @@
   "name": "Nike SB Blue",
   "OldPrice": 320.00,
   "price": 279.99,
-  "discount": false,
+  "discount": 10,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -256,7 +256,7 @@
   "name": "Nike SB Green",
   "OldPrice": 300.00,
   "price": 280.99,
-  "discount": 0.15,
+  "discount": 14,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -276,7 +276,7 @@
   "name": "Nike SB Green",
   "OldPrice": 320.00,
   "price": 285.99,
-  "discount": false,
+  "discount": 11,
   "description": "Tênis Nike SB Chron Slr Preto",
   "sizes": [39, 40],
   "image": [
@@ -296,7 +296,7 @@
   "name": "Regata Jordan Giannis Antetokounmpo Bucks Statement Edition 2020 Masculina",
   "OldPrice": 330.00,
   "price": 284.99,
-  "discount": false,
+  "discount": 13,
   "description": "Cores alternativas ousadas e detalhes distinguem a Statement Edition, uma camisa que simboliza a força coletiva, o espírito e a mentalidade competitiva da escalação. A camisa Jordan NBA Swingman Statement Edition dos Milwaukee Bucks é inspirada no que os profissionais usam. É fabricada com tecido de malha dupla de alta qualidade com um caimento confortável que fica excelente nos fãs.",
   "sizes": [39, 40],
   "image": [
@@ -314,7 +314,7 @@
   "name": "Regata Nike Bulls Icon",
   "OldPrice": 220.00,
   "price": 259.99,
-  "discount": 0.15,
+  "discount": 15,
   "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressas por meio das cores marcantes do time. A camisa Nike NBA Swingman Bulls Icon Edition do Chicago Bulls é inspirada na que os craques usam nos jogos. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos. Este produto é feito com 100% de tecido de poliéster reciclado.",
   "sizes": [39, 40],
   "image": [
@@ -332,7 +332,7 @@
   "name": "Regata Jordan Los Angeles Lakers Statement Edition 2020 Masculina",
   "OldPrice": 310.00,
   "price": 289.99,
-  "discount": false,
+  "discount": 12,
   "description": "Cores e detalhes alternativos e ousados distinguem a Statement Edition, uma camisa que simboliza a força coletiva, o espírito e a mentalidade competitiva da escalação. A camisa Jordan NBA Swingman Statement Edition dos Los Angeles Lakers é inspirada na que os craques usam. É fabricada com tecido de malha dupla de alta qualidade com um caimento confortável que fica excelente nos fãs. Este produto é feito com 100% de fibras de poliéster reciclado.",
   "sizes": [39, 40],
   "image": [
@@ -350,7 +350,7 @@
   "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
   "OldPrice": 340.00,
   "price": 289.99,
-  "discount": false,
+  "discount": 10,
   "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressa através da cor primária ousada da equipe. A camisa Nike NBA Icon Edition Swingman do Los Angeles Lakers é inspirada na que os craques usam. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos.",
   "sizes": [39, 40],
   "image": [

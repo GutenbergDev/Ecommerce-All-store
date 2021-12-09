@@ -41,8 +41,8 @@ const SlidePromo = ({ sectionPromo }) => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           initialSlide: 2
         }
       },
@@ -65,32 +65,42 @@ const SlidePromo = ({ sectionPromo }) => {
 
   return (
     <section className={styles.container}>
+      <div className={styles.title}>
+        <h3>Ofertas Imperdíveis</h3>
+      </div>
       <Slider
         className={styles.carousel}
         ref={carousel}
         {...settings}
       >
         {promocao.map((promo) => (
-          <Link
+          <div
             className={styles.item}
             key={promo.nameId}
-            to={`/promocao/${promo.nameId}`}
           >
             <div>
               <div className={`${styles.linkContainerPromo}`}>
-                <div className={styles.imgWidth}>
+                <Link 
+                  lassName={styles.imgWidth} 
+                  to={`/promocao/${promo.nameId}`}
+                >
                   <img src={promo.image[0]} alt="" />
-                </div>
+                </Link>
                 <div className={styles.nameproduct}>
                   <h3>{promo.name}</h3>
                 </div>
                 <div className={`${styles.dadosItem}`}>
                   <span className={styles.oldPrice}>R$ {promo.OldPrice}.00</span>
-                  <span className={styles.price}>R$ {(promo.price).toFixed(2)}</span>
+                  <span className={styles.price}>
+                    R$ {((promo.OldPrice) - (promo.discount / 100 * promo.OldPrice)).toFixed(2)}
+                  </span>
+                </div>
+                <div className={styles.desconto}>
+                  <p>{-(promo.discount)}%</p>
                 </div>
               </div>
             </div>  
-          </Link>
+          </div>
         ))}
       </Slider>
     </section>
