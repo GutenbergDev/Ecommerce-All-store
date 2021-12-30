@@ -1,6 +1,7 @@
 [{
   "userId": "ProdutoSlide",
   "nameId": "tenis-1",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "new",
@@ -24,6 +25,7 @@
 {
   "userId": "ProdutoSlide",
   "nameId": "tenis-2",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "new",
@@ -47,6 +49,7 @@
 {
   "userId": "ProdutoSlide",
   "nameId": "tenis-3",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "new",
@@ -70,6 +73,7 @@
 {
   "userId": "ProdutoSlide",
   "nameId": "tenis-4",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -92,6 +96,7 @@
   {
   "userId": "Air",
   "nameId": "air-max1",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -112,6 +117,7 @@
 {
   "userId": "Air",
   "nameId": "air-max2",
+  "type": "old",
   "id": 5,
   "name": "Nike Air2",
   "OldPrice": 320.00,
@@ -129,6 +135,7 @@
 {
   "userId": "Air",
   "nameId": "air-max3",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -149,6 +156,7 @@
 {
   "userId": "Air",
   "nameId": "air-max4",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -169,6 +177,7 @@
 {
   "userId": "Air",
   "nameId": "air-max5",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -189,6 +198,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-1",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -209,6 +219,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-2",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -229,6 +240,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-3",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -249,6 +261,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-4",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -269,6 +282,7 @@
 {
   "userId": "Sb",
   "nameId": "sb-5",
+  "type": "old",
   "product": "tenis",
   "brand": "Nike",
   "status": "old",
@@ -289,6 +303,7 @@
 {
   "userId": "basq",
   "nameId": "basq-1",
+  "type": "old",
   "product": "camiseta",
   "brand": "Nike",
   "status": null,
@@ -307,6 +322,7 @@
 {
   "userId": "basq",
   "nameId": "basq-2",
+  "type": "old",
   "product": "camiseta",
   "brand": "Nike",
   "status": null,
@@ -325,6 +341,7 @@
 {
   "userId": "basq",
   "nameId": "basq-3",
+  "type": "old",
   "product": "camiseta",
   "brand": "Nike",
   "status": null,
@@ -343,10 +360,87 @@
 {
   "userId": "basq",
   "nameId": "basq-4",
+  "type": "old",
   "product": "camiseta",
   "brand": "Nike",
   "status": null,
   "id": 17,
+  "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
+  "OldPrice": 340.00,
+  "price": 289.99,
+  "discount": 10,
+  "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressa através da cor primária ousada da equipe. A camisa Nike NBA Icon Edition Swingman do Los Angeles Lakers é inspirada na que os craques usam. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta2.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-4",
+  "type": "old",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 18,
+  "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
+  "OldPrice": 340.00,
+  "price": 289.99,
+  "discount": 10,
+  "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressa através da cor primária ousada da equipe. A camisa Nike NBA Icon Edition Swingman do Los Angeles Lakers é inspirada na que os craques usam. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta2.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-4",
+  "type": "old",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 19,
+  "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
+  "OldPrice": 340.00,
+  "price": 289.99,
+  "discount": 10,
+  "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressa através da cor primária ousada da equipe. A camisa Nike NBA Icon Edition Swingman do Los Angeles Lakers é inspirada na que os craques usam. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta2.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-4",
+  "type": "old",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 20,
+  "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
+  "OldPrice": 340.00,
+  "price": 289.99,
+  "discount": 10,
+  "description": "A camisa Icon Edition representa a rica herança e a identidade icônica da franquia, expressa através da cor primária ousada da equipe. A camisa Nike NBA Icon Edition Swingman do Los Angeles Lakers é inspirada na que os craques usam. O tecido em malha dupla premium tem uma construção de camisa clássica e um caimento que fica bem de todos os ângulos.",
+  "sizes": [39, 40],
+  "image": [
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta1.jpg",
+    "/static/img/camiseta/nike/Basquete/basq4/camiseta2.jpg"
+  ]
+},
+{
+  "userId": "basq",
+  "nameId": "basq-4",
+  "type": "old",
+  "product": "camiseta",
+  "brand": "Nike",
+  "status": null,
+  "id": 21,
   "name": "Regata Lakers Anthony Davis Icon Edition 2020/21 Masculina",
   "OldPrice": 340.00,
   "price": 289.99,

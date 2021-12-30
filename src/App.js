@@ -13,8 +13,12 @@ import Camisetas from './Components/Home/Main/Camisetas';
 import NikeSbProdutos from './Components/Home/Main/NikeSbProdutos';
 import PromoProdutos from './Components/Home/SlidePromo/PromoProdutos';
 import "slick-carousel/slick/slick.css"; 
+import SlidePromo from './Components/Home/SlidePromo/SlidePromo';
+import MaisProdutos from './Components/MaisProdutos/MaisProdutos';
+import EmailCadastro from './Components/EmailCadastro/EmailCadastro';
 
 const App = () => {
+
   return (
     <section className="App">
       <BrowserRouter>
@@ -34,6 +38,8 @@ const App = () => {
           </Routes>
         </div>  
 
+        <MaisProdutos />
+        <EmailCadastro />
         <Footer />
       </BrowserRouter>
     </section>
