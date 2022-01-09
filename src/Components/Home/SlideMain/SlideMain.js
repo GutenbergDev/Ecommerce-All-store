@@ -13,6 +13,7 @@ const SlideMain = ({ slideMain }) => {
    const { width } = contentRef.current.getBoundingClientRect();
    
    const timer = setTimeout(() => {
+
       setPosition(-(width * active))
       if(active < newProdutoSlide.length - 1) {
         setActive(active + 1)
@@ -21,8 +22,9 @@ const SlideMain = ({ slideMain }) => {
       }
     }, 5000)
 
+    
     return () => clearTimeout(timer)
-  }, [active])
+  }, [active, newProdutoSlide.length])
 
   return (
     <section className={`${styles.containerS}`}>
@@ -48,7 +50,7 @@ const SlideMain = ({ slideMain }) => {
                     </div>
                   </div>
                   <div className={styles.linkSlideItemTwo}>
-                    <img src={produto.imageSlide} alt="" />
+                    <img src={produto.imageSlide} alt="aa" />
                   </div>
               </div>
             </div>
@@ -57,7 +59,7 @@ const SlideMain = ({ slideMain }) => {
         ))}
       </div>
       <nav className={`${styles.nav}`}>
-
+          
       </nav>
     </section>
   )
