@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Contato.module.css';
 import Head from './Head';
 
 const Contato = () => {

@@ -10,7 +10,7 @@ const EmailCadastro = () => {
     <section className={styles.container}>
       <div className={styles.mainContainer}>
         <div className={styles.img}>
-          <img src={correioEletronico} />
+          <img src={correioEletronico} alt='imagem' />
         </div>
         <div className={styles.text}>
           <h4>RECEBA AS NOVIDADES DA NIKE</h4> 

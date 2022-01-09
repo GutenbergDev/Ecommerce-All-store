@@ -1,5 +1,4 @@
 import React from 'react';
-import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 import Head from '../../Head';
 import styles from './ProdutoSlide.module.css';
@@ -39,7 +38,7 @@ const ProdutoSlide = () => {
             key={produto.id}
           >
             <div>
-              <img src={produto.image[0]} />
+              <img src={produto.image[0]} alt='imagem' />
             </div>
             <div className={`${styles.dadosItem}`}>
               <span className={styles.oldPrice}>R$ {produto.OldPrice}.00</span>

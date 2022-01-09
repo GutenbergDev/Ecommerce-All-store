@@ -1,7 +1,5 @@
 import React from 'react';
 import Head from './Head';
-import SlidePromo from './Home/SlidePromo/SlidePromo';
-import styles from './Marcas.module.css';
 
 
 const Marcas = () => {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from 'react-router';
-import Head from '../../Head';
 import styles from './ProdutosNew.module.css';
 
 const ProdutosNew = () => {
@@ -46,12 +45,13 @@ const ProdutosNew = () => {
                 src={foto} 
                 onClick={handleClick} 
                 className={styles.imageActive}
+                alt='imagem'
               /> 
             )
           )}
           </div>
           <div className={`${styles.produtoImage}`}>
-            <img src={produtoIndex}/>
+            <img src={produtoIndex} alt='imagem'/>
           </div>
         </div>
         <div className={styles.containerProduto2}>
