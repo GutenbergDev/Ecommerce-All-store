@@ -6,7 +6,7 @@ const Contato = () => {
   return (
     <div>
       <Head title="Shoes | Contato" description="Entre em contato" /> 
-      <h1>Contato</h1>
+      <h1>Contatoo</h1>
     </div>
   )
 }
