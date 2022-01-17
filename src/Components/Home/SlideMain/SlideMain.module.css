@@ -92,7 +92,7 @@
   }
 } 
 
-@media (min-width: 425px) and (max-width: 720px) {
+@media (min-width: 425px) and (max-width: 719px) {
 
   .linkSlideContainer {
     flex-direction: column-reverse;

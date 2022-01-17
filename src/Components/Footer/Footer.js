@@ -6,7 +6,18 @@ const Footer = () => {
   return (
     <section className={`${styles.container} ${styles.footer}`}>
       <div className={styles.footerContent}>
-        <h1>Footer</h1>
+        <section>
+          PRODUTOS
+        </section>
+        <section>
+          SUPORTE 
+        </section>
+        <section>
+          SOBRE A SHOES
+        </section>
+        <section>
+          REDES SOCIAIS
+        </section>
       </div>
     </section>
   )
