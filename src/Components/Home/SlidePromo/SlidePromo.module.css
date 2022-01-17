@@ -112,3 +112,17 @@
   border-right-width: 17px;
   border-top-color: inherit;
 }
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  
+  .linkContainerPromo img {
+    width: 10rem;
+  }
+} 
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+  .linkContainerPromo img {
+    width: 10rem;
+  }
+} 

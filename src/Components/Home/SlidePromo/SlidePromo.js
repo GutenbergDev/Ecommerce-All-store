@@ -39,9 +39,18 @@ const SlidePromo = ({ sectionPromo }) => {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 1023,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
           slidesToScroll: 2,
           initialSlide: 2
         }
@@ -54,9 +63,9 @@ const SlidePromo = ({ sectionPromo }) => {
         }
       },
       {
-        breakpoint: 375,
+        breakpoint: 425,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
