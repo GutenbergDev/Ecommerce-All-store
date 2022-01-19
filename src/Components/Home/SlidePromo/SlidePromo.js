@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './SlidePromo.module.css';
-import LeftArrow from "../../../img/left-arrow.png";
-import RightArrow from "../../../img/right-arrow.png";
+import LeftArrow from "../../../img1/left-arrow.png";
+import RightArrow from "../../../img1/right-arrow.png";
 import Slider from 'react-slick';
 
 

@@ -4,6 +4,8 @@ import styles from './Home.module.css';
 import HomeContent from './Main/HomeContent';
 import SlideMain from './SlideMain/SlideMain';
 import SlidePromo from './SlidePromo/SlidePromo';
+import data from '../../json/produtos.json';
+
 
 const Home = () => {
   const [produtos, setProdutos] = React.useState(null);
@@ -13,12 +15,9 @@ const Home = () => {
   }, [])
 
   React.useEffect(() => {
-    async function fetchProdutos(url) {
-      const response = await fetch(url);
-      const json = await response.json();
-      setProdutos(json)
-    }
-    fetchProdutos(`/static/json/produtos.json`);
+
+    setProdutos(data)
+  
   }, [])
 
   if(produtos === null) return null;

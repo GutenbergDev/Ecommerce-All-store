@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../EmailCadastro/EmailCadastro.module.css';
-import correioEletronico from '../../img/carta.png';
+import correioEletronico from '../../img1/carta.png';
 import { Link } from 'react-router-dom';
 
 const EmailCadastro = () => {
