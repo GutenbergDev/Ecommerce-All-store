@@ -19,7 +19,7 @@ const ProdutoSlide = () => {
       setProdutosSlide(json);
     }
 
-    fetchProdutosSlide(`/static/json/ProdutosSlide.json`);
+    fetchProdutosSlide(`/static/json/produtosSlide.json`);
   }, []);
 
   if(produtosSlide === null) return null;

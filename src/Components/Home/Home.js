@@ -15,9 +15,7 @@ const Home = () => {
   }, [])
 
   React.useEffect(() => {
-
     setProdutos(data)
-  
   }, [])
 
   if(produtos === null) return null;
@@ -25,7 +23,7 @@ const Home = () => {
   return (
     <>
       <section className={styles.slideMain}>
-      <Head title={`Shoes | Home`} description={`Descrição do site Ranek`} />
+        <Head title={`Shoes | Home`} description={`Descrição do site Ranek`} />
         <SlideMain slideMain={produtos} />
       </section>
       <main>

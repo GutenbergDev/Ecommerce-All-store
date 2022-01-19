@@ -43,7 +43,6 @@ const SlideMain = ({ slideMain }) => {
                   <div className={styles.linkSlideItem}>
                     <div>
                       <h1 className={styles.h1}>{produto.name}</h1>
-                      <h2 className={styles.h2}>{produto.subName}</h2>
                     </div>  
                     <div>
                       <p className={styles.p}>{produto.description}</p>
