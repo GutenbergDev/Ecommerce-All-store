@@ -22,6 +22,10 @@
   border-radius: 5px;
 }
 
+.containerContent {
+  display: flex;
+}
+
 .mainContainer1 .btnContainer {
   max-width: 20rem;
   padding-left: 1rem;
@@ -251,6 +255,10 @@
     margin-top: 20px;
   }
 
+  .containerContent {
+    flex-direction: column;
+  }
+
   .mainContainer1Item h3 {
     font-size: 1.5rem;
     margin-bottom: .5rem;
@@ -262,9 +270,22 @@
     text-align: justify;
     font-weight: 500;
   }
+
+  .mainContainer1Item2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 1rem;
+  }
   
   .mainContainer1Item2 img {
     max-width: 150px;
   }
-  
+
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
 } 

@@ -10,7 +10,7 @@ const HomeContent = ({ sectionNews }) => {
     <section className={styles.container}>
       <div className={styles.mainContent}>
        <div className={`${styles.mainContainer1} animeLeft`}>
-         <div style={{ display: 'flex' }}>
+         <div className={styles.containerContent}>
           <div className={styles.mainContainer1Item}>
               <h3>{camiseta[0].name}</h3>
               <p>{camiseta[0].description}</p>

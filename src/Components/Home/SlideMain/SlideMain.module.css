@@ -128,17 +128,12 @@
 @media (min-width: 320px) and (max-width: 425px) {
 
   .containerS {
-    overflow: hidden;
     width: 100%;
   }
   
   .content {
-    display: flex;
-    align-items: center;
-    transition: transform 0.3s ease;
     width: 100%;
     height: auto;
-    margin: 0 auto;
   }
 
   .linkSlideContainer {
