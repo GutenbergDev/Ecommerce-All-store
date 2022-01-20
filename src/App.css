@@ -108,3 +108,7 @@ a {
   right: 1rem;
   top: 10rem;
 }
+
+.slick-dots {
+  display: none;
+}

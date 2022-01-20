@@ -65,7 +65,7 @@ const SlidePromo = ({ sectionPromo }) => {
       {
         breakpoint: 425,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1
         }
       }
@@ -87,7 +87,7 @@ const SlidePromo = ({ sectionPromo }) => {
             className={styles.item}
             key={promo.nameId}
           >
-            <div>
+            <div className={styles.containerHiden}>
               <div className={`${styles.linkContainerPromo}`}>
                 <Link 
                   lassName={styles.imgWidth} 
