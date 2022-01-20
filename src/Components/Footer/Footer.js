@@ -19,6 +19,9 @@ const Footer = () => {
           REDES SOCIAIS
         </section>
       </div>
+      <div className={styles.developer}>
+        Projeto em desenvolvimento por Gutemberg Medeiros.
+      </div>
     </section>
   )
 }

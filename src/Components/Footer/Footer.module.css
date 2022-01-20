@@ -11,3 +11,11 @@
   margin: 0 auto;
   color: #fff;
 }
+
+.developer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: .8rem;
+  padding-bottom: 1rem;
+}
